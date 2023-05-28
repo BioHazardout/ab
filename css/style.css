@@ -392,8 +392,22 @@ img{
 .homeTitle{
   text-align: center;
   font-size: var(--big-font);
-  color: #000;
+  color: var(--text-color-light);
   font-weight: var(--font-semi-bold);
+}
+.home__img{
+  position: relative;
+
+  justify-self: center;
+  width: 240px;
+  height: auto;
+}
+.home__img img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  height: auto;
 }
 
 
